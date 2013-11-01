@@ -1,0 +1,36 @@
+{
+	"name": "<%= moduleName %>",
+	"version": "1.0.0",
+	"authors": [
+		"<%= authorName %>"
+	],
+	"description": "<%= moduleDescription %>",
+	"keywords": [
+		<% for(var ii=0; ii<moduleKeywords.length; ii++) {
+			if(ii !==0) {
+				print('\t\t');
+			}
+			print('"'+moduleKeywords[ii]+'"');
+			if(ii !==(moduleKeywords.length -1)) {
+				print(',\n');
+			}
+		}
+		%>
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular":"~1.2.0",
+		"angular-animate":"~1.2.0",
+		"angular-sanitize":"~1.2.0",
+		"angular-touch":"~1.2.0"
+	},
+	"devDependencies": {
+	}
+}
