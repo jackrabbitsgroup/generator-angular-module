@@ -59,7 +59,8 @@ module.exports = function(grunt) {
 				},
 				beforeconcat:   {
 					options: {
-						force:	false
+						force:	false,
+						ignores: ['**.min.js']
 					},
 					files: {
 						src: []
@@ -68,7 +69,8 @@ module.exports = function(grunt) {
 				//quick version - will not fail entire grunt process if there are lint errors
 				beforeconcatQ:   {
 					options: {
-						force:	true
+						force:	true,
+						ignores: ['**.min.js']
 					},
 					files: {
 						src: ['**.js']
