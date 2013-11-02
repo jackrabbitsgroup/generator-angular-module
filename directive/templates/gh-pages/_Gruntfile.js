@@ -45,6 +45,7 @@ module.exports = function(grunt) {
 					//force:          true,
 					globalstrict:   true,
 					//sub:            true,
+					node: true,
 					loopfunc: true,
 					browser:        true,
 					devel:          true,
