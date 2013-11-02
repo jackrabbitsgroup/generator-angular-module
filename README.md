@@ -1,11 +1,11 @@
-# generator-angular-module [![Build Status](https://secure.travis-ci.org/lukemadera/generator-angular-module.png?branch=master)](https://travis-ci.org/lukemadera/generator-angular-module)
+# generator-angular-module [![Build Status](https://secure.travis-ci.org/jackrabbitsgroup/generator-angular-module.png?branch=master)](https://travis-ci.org/jackrabbitsgroup/generator-angular-module)
+
+AngularJS module builder (aimed at making Bower components with Github Pages for the demo(s)). Based off of <a href='http://briantford.com/blog/angular-bower.html'>Brian Ford's excellent post on AngularJS modules with Bower</a>.
 
 A generator for [Yeoman](http://yeoman.io).
 
 
 ## Getting Started
-
-AngularJS module builder (aimed at making Bower components with Github Pages for the demo(s)). Based off of <a href='http://briantford.com/blog/angular-bower.html'>Brian Ford's excellent post on AngularJS modules with Bower</a>.
 
 ### What is Yeoman?
 
@@ -39,6 +39,7 @@ $ yo angular-module
 
 ### Next Steps
 After you've followed the Yeoman prompts and your project has been scaffolded out for you, you'll have TWO Git branches, `master` (where the final bower component code will live) and `gh-pages` (where the development and demo takes place). You'll start in the `gh-pages` branch - use the files created for you to actually build your module and a demo (which you'll use to manually test as you're building).
+
 1. run `npm install && bower install` - this installs grunt and any dependencies such as AngularJS
 2. write code! (actually build your module and confirm it's working with the demo)
 	1. check the `app.js` `staticPath` variable - this assumes an `angular-directives` folder off the root of your server but just set that path to be relative to your server root for the demo to work locally.
