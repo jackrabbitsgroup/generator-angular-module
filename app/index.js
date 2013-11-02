@@ -55,33 +55,32 @@ AngularModuleGenerator.prototype.askFor = function askFor() {
 		},
 		{
 			name: 'moduleName',
-			message: 'Module name (i.e. angular-forminput)',
-			default: 'angular-module-test'		//TESTING
+			message: 'Module name (i.e. angular-forminput)'
 		},
 		{
 			name: 'githubName',
-			message: 'Github User or Organization Name',
-			default: 'jackrabbitsgroup'
+			message: 'Github User or Organization Name'
+			// default: 'jackrabbitsgroup'
 		},
 		{
 			name: 'modulePrefix',
-			message: 'Module prefix - typically an abbreviation of your Github User/Organization Name (i.e. jrg)',
-			default: 'jrg'
+			message: 'Module prefix - typically an abbreviation of your Github User/Organization Name (i.e. jrg)'
+			// default: 'jrg'
 		},
 		{
 			name: 'authorName',
-			message: 'Author name and email (i.e. John Smith <johnsmith@email.com>)',
-			default: 'Luke Madera <luke.madera@gmail.com>'
+			message: 'Author name and email (i.e. John Smith <johnsmith@email.com>)'
+			// default: 'Luke Madera <luke.madera@gmail.com>'
 		},
 		{
 			name: 'moduleDescription',
-			message: 'Module description (i.e. AngularJS form input builder directive)',
-			default: 'ang form'		//TESTING
+			message: 'Module description (i.e. AngularJS form input builder directive)'
+			// default: 'ang form'		//TESTING
 		},
 		{
 			name: 'moduleKeywords',
-			message: 'Module (Bower) keywords, space separated (i.e. angular AngularJS form input angular-forminput directive)',
-			default: 'angular AngularJS form'		//TESTING
+			message: 'Module (Bower) keywords, space separated (i.e. angular AngularJS form input angular-forminput directive)'
+			// default: 'angular AngularJS form'		//TESTING
 		}
 	];
 
