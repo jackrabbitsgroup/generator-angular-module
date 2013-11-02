@@ -10,10 +10,16 @@ Install Yeoman Yo, if you haven't already:
 $ npm install -g yo
 ```
 
-Install:
+Install this generator:
 ```
 $ npm install -g generator-angular-module
 ```
+
+NOTE: Before creating a new module, CHECK / SEARCH to see if one already exists! And check the name on Bower since you must create one with a UNIQUE name.
+
+1. <a href='http://sindresorhus.com/bower-components'>Bower Components</a> - make sure to search for multiple keywords (i.e. 'angular-form' and 'angular-input' and 'angular form' and 'angular input' since the search isn't great since it depends on keywords and not all components are well listed).
+2. <a href='http://ngmodules.org/'>Angular (NG) Modules</a>
+3. Google it!
 
 Finally, naviagate to a (new) directory where you want to create your AngularJS module and initiate the generator:
 
