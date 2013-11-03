@@ -5,9 +5,9 @@
 
 ## Getting Started
 
-Install Yeoman Yo, if you haven't already:
+Install Yeoman Yo, Bower, & Grunt if you haven't already:
 ```
-$ npm install -g yo
+$ npm install -g yo bower grunt-cli
 ```
 
 Install this generator:
