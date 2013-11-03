@@ -18,7 +18,7 @@ See `bower.json` and `index.html` in the `gh-pages` branch for a full list / mor
 	1. Bower
 		1. add `"<%= moduleName %>": "latest"` to your `bower.json` file then run `bower install` OR run `bower install <%= moduleName %>`
 2. include the files in your app
-	1. `<%= moduleNamePart%>.js`
+	1. `<%= moduleNamePart%>.min.js`
 	2. `<%= moduleNamePart%>.less`
 3. include the module in angular (i.e. in `app.js`) - `<%= githubName %>.<%= moduleName %>`
 
