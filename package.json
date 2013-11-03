@@ -1,6 +1,6 @@
 {
   "name": "generator-angular-module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Generate Angular directive or service with gh-pages git branch for demo, typically for packaging as a bower module.",
   "keywords": [
     "yeoman-generator",
