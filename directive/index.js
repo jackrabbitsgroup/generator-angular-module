@@ -50,7 +50,7 @@ if(this.moduleType =='directive') {
 	this.copy('master/_bower.json', 'bower.json');
 	this.copy('master/_README.md', 'README.md');
 
-	this.copy('master/.gitignore', '.gitignore');
+	this.copy('master/_.gitignore', '.gitignore');
 	this.copy('master/CHANGELOG.md', 'CHANGELOG.md');
 	
 	// this.copy('master/editorconfig', '.editorconfig');
@@ -90,7 +90,7 @@ if(this.moduleType =='directive') {
 	this.mkdir('pages');
 	this.mkdir('pages/home');
 
-	this.copy('gh-pages/.gitignore', '.gitignore');
+	this.copy('gh-pages/_.gitignore', '.gitignore');
 	
 	this.template('gh-pages/_base.less', '_base.less');
 	this.template('gh-pages/_bower.json', 'bower.json');

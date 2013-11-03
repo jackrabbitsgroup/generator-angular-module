@@ -9,11 +9,9 @@
 
 angular.module('<%= githubName %>.<%= moduleName %>', [])
 .factory('<%= modulePrefix%><%= _.capitalize(_.camelize(moduleNamePart)) %>', [ function () {
-	//methods and properties (some of which may be private - explicitly state which methods and properties to expose/return at bottom)
-	var privateObj ={
-	};
+	//private methods and properties - should ONLY expose methods and properties publicly (via the 'return' object) that are supposed to be used; everything else (helper methods that aren't supposed to be called externally) should be private.
 	
-	//select which methods/functions (and potentially properties) to expose
+	//public methods & properties
 	return {
 	};
 }]);
