@@ -7,6 +7,8 @@ TODO
 @param {Object} attrs REMEMBER: use snake-case when setting these on the partial! i.e. my-attr='1' NOT myAttr='1'
 TODO
 
+@dependencies
+TODO
 
 @usage
 partial / html:
