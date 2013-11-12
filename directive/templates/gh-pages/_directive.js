@@ -29,7 +29,8 @@ angular.module('<%= githubName %>.<%= moduleName %>', []).directive('<%= moduleP
 		scope: {
 		},
 
-		compile: function(element, attrs) {
+		// replace: true,
+		template: function(element, attrs) {
 			var defaultsAttrs ={
 			};
 			for(var xx in defaultsAttrs) {
@@ -40,10 +41,10 @@ angular.module('<%= githubName %>.<%= moduleName %>', []).directive('<%= moduleP
 			
 			var html ="<div>";
 			html+="</div>";
-			element.replaceWith(html);
-
-			return function(scope, element, attrs) {
-			};
+			return html;
+		},
+		
+		link: function(scope, element, attrs) {
 		},
 		
 		controller: function($scope, $element, $attrs) {
