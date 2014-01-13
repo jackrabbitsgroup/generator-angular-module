@@ -100,6 +100,8 @@ if(this.moduleType =='service') {
 	
 	this.template('gh-pages/_service.js', this.moduleNamePart+'.js');
 	
+	this.copy('gh-pages/server.js', 'server.js');
+	
 	this.template('gh-pages/pages/home/HomeCtrl.js', 'pages/home/HomeCtrl.js');
 	
 	this.copy('gh-pages/pages/home/home.html', 'pages/home/home.html');

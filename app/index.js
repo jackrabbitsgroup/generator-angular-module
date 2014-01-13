@@ -38,7 +38,7 @@ var AngularModuleGenerator = module.exports = function AngularModuleGenerator(ar
   this.on('end', function () {
     // this.installDependencies({ skipInstall: options['skip-install'] });
 	
-	this.log.writeln('Next steps:\n1. run `npm install && bower install`\n2. write your code then run `grunt`\n3. creat github repo\n4. commit & push `gh-pages` branch\n5. commit, tag, & push `master` branch\n6. (optional) register bower component');
+	this.log.writeln('Next steps:\n1. run `npm install && bower install`\n2. write your code then run `grunt`\n3. create github repo\n4. commit & push `gh-pages` branch\n5. commit, tag, & push `master` branch\n6. (optional) register bower component');
   });
 
   // this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));

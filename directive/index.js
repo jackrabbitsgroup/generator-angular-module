@@ -101,6 +101,9 @@ if(this.moduleType =='directive') {
 	
 	this.template('gh-pages/_directive.js', this.moduleNamePart+'.js');
 	this.template('gh-pages/_directive.less', this.moduleNamePart+'.less');
+	this.template('gh-pages/__directive.less', '_'+this.moduleNamePart+'.less');
+	
+	this.copy('gh-pages/server.js', 'server.js');
 	
 	this.copy('gh-pages/pages/home/home.html', 'pages/home/home.html');
 	this.copy('gh-pages/pages/home/HomeCtrl.js', 'pages/home/HomeCtrl.js');
